@@ -31,3 +31,4 @@ Build is successfully deployed
 PAWPAW''', recipientProviders: [developers(), contributor()], subject: 'Build status', to: 'henrynkongho8@gmail.com'
      }
   }
+}
