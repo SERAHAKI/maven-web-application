@@ -1,7 +1,7 @@
 node{
  stage('1.CodeClone'){
-    sh  "git clone 'https://github.com/SERAHAKI/maven-web-application"
-    //bat "git clone 'https://github.com/SERAHAKI/maven-web-application"
+    sh  "git clone https://github.com/SERAHAKI/maven-web-application"
+    //bat "git clone https://github.com/SERAHAKI/maven-web-application"
   }
 node{
  stage('1.CodeClone'){
