@@ -1,4 +1,3 @@
-  }
  stage('2MavenBuild'){
    sh "${mavenHome}/bin/mvn package"
  }
