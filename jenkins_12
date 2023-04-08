@@ -1,4 +1,17 @@
 node{
+ stage('1.CodeClone'){
+    sh  "git clone 'https://github.com/SERAHAKI/maven-web-application"
+    //bat "git clone 'https://github.com/SERAHAKI/maven-web-application"
+  }
+node{
+ stage('1.CodeClone'){
+git credentialsId: 'gitHubCredentials', url: ''https://github.com/SERAHAKI/maven-web-application'
+   }
+ stage('2MavenBuild'){
+
+ }
+
+node{
   def mavenHome = tool name: 'maven3.9.1'
  stage('1.CodeClone'){
     git credentialsId: 'gitHubCredentials', url: 'https://github.com/SERAHAKI/maven-web-application'
